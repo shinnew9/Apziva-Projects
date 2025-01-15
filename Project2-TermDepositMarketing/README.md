@@ -5,7 +5,6 @@
 Design and implement a modular, three-layered architecture to process data, extract features, and generate actionable insights.
 
 ## Architecture
-
 ### Layer 1: Data Ingestion and Preprocessing
 - **Function**:
   - Load raw data from various sources (e.g., CSV, databases, APIs).
@@ -27,38 +26,51 @@ Design and implement a modular, three-layered architecture to process data, extr
 - **Tools**: Tableau, Matplotlib, Plotly, Seaborn.
 
 ## Insights
-
 ### Key Trends and Patterns
 1. **Correlation**:
-   - Positive correlation observed between **[Variable X]** and **[Variable Y]**, identifying a key influencing factor.
+   - A strong positive correlation was observed between **last contact duration (duration)** and the likelihood of positive outcomes (e.g., campaign success), suggesting that longer interactions improve results.
 2. **Seasonality**:
-   - Detected periodic peaks in **[metric]** during specific timeframes, indicating seasonality or cyclical trends.
-3. **Anomalies**:
-   - Noticed sharp increases in **[metric]** during specific events, prompting further investigation.
+   - The **month** variable revealed that campaigns conducted in **May and September** had higher success rates, indicating seasonal trends in customer engagement.
+3. **Demographic Patterns**:
+   - Customers with **higher balances** were more likely to respond positively to campaigns, implying financial stability plays a role in decision-making.
 
 ### Feature Importance
-- **Feature A** and **Feature B** were the most significant predictors for **[target outcome]**.
-- **Feature C** was excluded in the final model due to lesser contribution, improving model efficiency.
+1. **Duration**:
+  - The most significant predictor for campaign success was **duration**. Longer calls were consistently associated with better outcomes.
+2. **Balance**:
+  - **Balance** was another key variable, with higher balances correlating with a greater likelihood of engagement.
+3. **Education and Job**:
+  - Customers with higher education levels or professional/managerial jobs were more responsive compared to others.
 
 ### Performance Insights
-- Achieved **[specific performance metric, e.g., 85% accuracy or R² of 0.92]**, demonstrating strong predictive power.
-- Highlighted areas for data quality improvements and additional features to enhance robustness.
+- Achieved **an accuracy of 85%**, in predicting campaign success.
+- The model highlighted areas where further data, such as customer preferences or historical engagement, could improve predictions.
 
 ### Actionable Business Insights
-- Suggested **targeted marketing strategies** for user clusters with similar behaviors.
-- Recommended **resource allocation adjustments** for specific regions or timeframes to maximize outcomes.
-- Delivered interactive dashboards for real-time monitoring of KPIs.
+1. **Optimize Call Duration**:
+  - Focus on improving the quality of interactions during calls to maximize their duration and effectiveness.
+2. **Target High-Balance Customers**:
+  - Design targeted campaigns for customers with **higher yearly balances**, as they showed higher engagement.
+3. **Seasonal Campaign Planning**:
+  - Concentrate efforts in **May and September**, as these months showed increased campaign success rates.
+4. **Education-Specific Messaging**:
+  - Tailor communication styles and campaign offers to align with the preferences of educated customers and those in professional/managerial roles.
+5. Delivered interactive dashboards via Tableau 
+https://public.tableau.com/app/profile/yoojin.shin6121/viz/ApzivaProject2-TermDepositMarketing2020/data_distribution2.
+- Uploaded such insights on YouTube: https://www.youtube.com/watch?v=25U2YNakX1o
 
 ### Unexpected Findings
-- Identified an overlooked demographic that contributes disproportionately to **[specific metric]**, presenting new engagement opportunities.
-- Uncovered a negative impact of **[specific factor]**, suggesting changes to mitigate risks.
+1. **Credit Defaults**:
+  - Customers with **no credit in default** responded significantly better to campaigns, emphasizing the importance of financial health.
+2. **Multiple Contacts**:
+  - A higher number of contacts during a campaign (campaign variable) reduced engagement, suggesting diminishing returns after a certain point.
 
-## Outcome
+### Outcome
 - Built a scalable, reusable pipeline for efficient data processing and analysis.
 - Extracted actionable insights to inform data-driven decisions.
 - Enhanced visualization and stakeholder engagement with clear, interactive reports.
 
-## Technologies Used
+### Technologies Used
 - **Languages**: Python, SQL
 - **Libraries**: Pandas, NumPy, Scikit-learn, TensorFlow, Matplotlib, Seaborn, Plotly
 - **Visualization Tools**: Tableau
