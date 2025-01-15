@@ -48,22 +48,22 @@ Design and implement a modular, three-layered architecture to process data, extr
 
 ### Actionable Business Insights
 1. **Optimize Call Duration**:
-  - Focus on improving the quality of interactions during calls to maximize their duration and effectiveness.
+    - Focus on improving the quality of interactions during calls to maximize their duration and effectiveness.
 2. **Target High-Balance Customers**:
-  - Design targeted campaigns for customers with **higher yearly balances**, as they showed higher engagement.
+    - Design targeted campaigns for customers with **higher yearly balances**, as they showed higher engagement.
 3. **Seasonal Campaign Planning**:
-  - Concentrate efforts in **May and September**, as these months showed increased campaign success rates.
+    - Concentrate efforts in **May and September**, as these months showed increased campaign success rates.
 4. **Education-Specific Messaging**:
-  - Tailor communication styles and campaign offers to align with the preferences of educated customers and those in professional/managerial roles.
+    - Tailor communication styles and campaign offers to align with the preferences of educated customers and those in professional/managerial roles.
 5. Delivered interactive dashboards via Tableau 
 https://public.tableau.com/app/profile/yoojin.shin6121/viz/ApzivaProject2-TermDepositMarketing2020/data_distribution2.
-- Uploaded such insights on YouTube: https://www.youtube.com/watch?v=25U2YNakX1o
+  - Uploaded such insights on YouTube: https://www.youtube.com/watch?v=25U2YNakX1o
 
 ### Unexpected Findings
 1. **Credit Defaults**:
-  - Customers with **no credit in default** responded significantly better to campaigns, emphasizing the importance of financial health.
+    - Customers with **no credit in default** responded significantly better to campaigns, emphasizing the importance of financial health.
 2. **Multiple Contacts**:
-  - A higher number of contacts during a campaign (campaign variable) reduced engagement, suggesting diminishing returns after a certain point.
+    - A higher number of contacts during a campaign (campaign variable) reduced engagement, suggesting diminishing returns after a certain point.
 
 ### Outcome
 - Built a scalable, reusable pipeline for efficient data processing and analysis.
