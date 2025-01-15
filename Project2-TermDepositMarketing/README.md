@@ -1,4 +1,5 @@
-# Project 2: 3-Layered Model for Data Processing and Analysis
+# Project 2: 
+3-Layered Model for Data Processing and Analysis
 
 ## Objective
 Design and implement a modular, three-layered architecture to process data, extract features, and generate actionable insights.
