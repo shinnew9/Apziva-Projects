@@ -36,11 +36,11 @@ Design and implement a modular, three-layered architecture to process data, extr
 
 ### Feature Importance
 1. **Duration**:
-  - The most significant predictor for campaign success was **duration**. Longer calls were consistently associated with better outcomes.
+    - The most significant predictor for campaign success was **duration**. Longer calls were consistently associated with better outcomes.
 2. **Balance**:
-  - **Balance** was another key variable, with higher balances correlating with a greater likelihood of engagement.
+    - **Balance** was another key variable, with higher balances correlating with a greater likelihood of engagement.
 3. **Education and Job**:
-  - Customers with higher education levels or professional/managerial jobs were more responsive compared to others.
+    - Customers with higher education levels or professional/managerial jobs were more responsive compared to others.
 
 ### Performance Insights
 - Achieved **an accuracy of 85%**, in predicting campaign success.
