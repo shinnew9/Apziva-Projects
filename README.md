@@ -12,7 +12,7 @@ Key themes across projects:
 
 
 |Number|Project Title|Description|Period|
-|------|---|---|----|
+|:------:|:---:|:---:|----|
 |1|Happy Customers|Built and evaluated classification models to predict customer satisfaction using survey data, and identified key drivers influencing service quality to support business decision-making|테스트4|
 |2|Term Deposit Marketing|Developed data-driven targeting and segmentation strategies to reduce call volume and improve subscription rates by addressing class imbalance and evaluating multiple predictive models|테스트4|
 |3|Potential Talents|Designed a semantic candidate ranking system using NLP embeddings, learning-to-rank techniques, and LLM-based retrieval to match job descriptions with relevant candidate profiles|테스트4|
