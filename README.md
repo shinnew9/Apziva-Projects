@@ -1,4 +1,4 @@
-## PApziva Projects — Overview
+## Apziva Projects — Overview
 During my time at Apziva, I worked as a Data Scientist / AI Resident, focusing on solving real-world business problems using machine learning, NLP, and LLM-based systems.
 My work focused on end-to-end pipelines, spanning data exploration and modeling through to evaluation and actionable insights.
 
