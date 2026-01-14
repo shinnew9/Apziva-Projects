@@ -9,8 +9,8 @@ Key themes across projects:
 - NLP, classical ML, and LLM integration
 - Translating business questions into deployable ML solutions
 
-
-
+<br>
+<br>
 |Number|Project Title|Description|
 |:------:|---|---|
 |1|Happy Customers|Built and evaluated classification models to predict customer satisfaction using survey data, and identified key drivers influencing service quality to support business decision-making|
