@@ -26,17 +26,18 @@ My work focused on <b>end-to-end pipelines</b>, spanning data exploration and mo
 <br>
 
 ### <b>1. Happy Customers — Customer Satisfaction Prediction</b>
-#### <b>Goal</b>
+<b>Goal</b><br>
 Predict customer satisfaction levels and identify the key factors that influence service quality, enabling the business to prioritize operational improvements.
+<br>
 
-#### <b>What I Did</b>
+<b>What I Did</b><br>
 - Conducted exploratory data analysis (EDA) on survey-based customer data
 - Identified key satisfaction drivers through feature analysis
 - Trained and tuned Logistic Regression and XGBoost models
 - Achieved 74% accuracy, exceeding the business benchmark of 73%
 - Translated model outputs into actionable business insights
 
-#### Skills & Tools
+<b>Skills & Tools</b><br>
 - Python, scikit-learn, XGBoost
 - Classification modeling
 - Feature importance & evaluation
@@ -44,11 +45,12 @@ Predict customer satisfaction levels and identify the key factors that influence
 
 <br>
 
-### 2. Term Deposit Marketing — Customer Targeting & Segmentation
-#### Goal
+### <b>2. Term Deposit Marketing — Customer Targeting & Segmentation</b>
+<b>Goal</b><br>
 Reduce unnecessary call volume while improving subscription rates for a term deposit marketing campaign.
+<br>
 
-#### What I Did
+<b>What I Did</b><br>
 - Addressed class imbalance using SMOTE, Tomek Links, and related techniques
 - Performed customer segmentation using PCA, t-SNE, UMAP, and K-means clustering
 - Trained and evaluated Logistic Regression, Random Forest, and Gradient Boosting models
@@ -56,8 +58,49 @@ Reduce unnecessary call volume while improving subscription rates for a term dep
 - Proposed data-driven targeting strategies that reduced call volume and improved conversion rates
 - Visualized results using Tableau and shared insights via a presentation video
 
-#### Skills & Tools
+<b>Skills & Tools</b><br>
 - Python, scikit-learn
 - Dimensionality reduction & clustering
 - Model evaluation & business-oriented reporting
 - Tableau
+
+
+<br>
+
+### <b>3. Potential Talents — Candidate Ranking & LLM-Based Retrieval</b>
+<b>Goal<b><br>
+Enable recruiters to identify suitable candidates efficiently using semantic search and ranking instead of keyword matching.
+<br>
+
+<b>What I Did</b><br>
+- Vectorized job descriptions and candidate profiles using TF-IDF, Word2Vec, GloVe, and FastText
+- Implemented cosine similarity–based ranking
+- Applied Learning-to-Rank approaches, including RankNet
+- Fine-tuned the OLMoE-1B–7B Instruct model using LoRA for efficient adaptation
+- Built a retrieval-augmented generation (RAG) pipeline using FAISS and LangChain (without Pinecone)
+- Developed a semantic candidate ranking system and presented the project at Apziva’s Generative AI Workshop
+
+<b>Skills & Tools</b><br>
+- NLP & embedding models
+- Learning-to-Rank
+- LoRA fine-tuning
+- FAISS, LangChain
+- LLM-based retrieval systems
+
+<br>
+
+### <b>4. MonReader — OCR & Text-to-Speech Pipeline</b><br>
+<b>Goal</b>
+Automate text extraction from large batches of images and convert extracted text into speech for improved accessibility.
+
+<b>What I Did</b><br>
+- Built an OCR pipeline using EasyOCR
+- Applied confidence-level filtering to remove noisy or low-quality text
+- Converted recognized text into audio using Google Text-to-Speech (gTTS)
+- Designed an end-to-end batch-processing pipeline for scalable use
+
+
+<b>Skills & Tools</b><br>
+- Python
+- EasyOCR, gTTS
+- Data preprocessing & pipeline design
