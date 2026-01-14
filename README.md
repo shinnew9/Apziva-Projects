@@ -9,6 +9,8 @@ My work focused on <b>end-to-end pipelines</b>, spanning data exploration and mo
 - NLP, classical ML, and LLM integration
 - Translating business questions into deployable ML solutions
 
+Each projects are described in more detail in each folder.
+
 <br>
 <br>
 
