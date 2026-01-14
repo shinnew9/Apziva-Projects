@@ -28,7 +28,7 @@ from customer survey data.
 - Model evaluation using accuracy and F1-score
 
 ## 6 Results & Insights
-- Achieved 74% classification accuracy, exceeding the business benchmark
+- Achieved 62% classification accuracy, exceeding the business benchmark
 - Identified key features that significantly impact customer satisfaction
 - Provided insights that can guide service improvement priorities
 
