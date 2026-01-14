@@ -1,8 +1,8 @@
 ## Apziva Projects — Overview
-During my time at Apziva, I worked as a Data Scientist / AI Resident, focusing on solving real-world business problems using machine learning, NLP, and LLM-based systems.
-My work focused on end-to-end pipelines, spanning data exploration and modeling through to evaluation and actionable insights.
+During my time at <b>Apziva</b>, I worked as a <b>Data Scientist / AI Resident</b>, focusing on solving real-world business problems using machine learning, NLP, and LLM-based systems.
+My work focused on <b>end-to-end pipelines</b>, spanning data exploration and modeling through to evaluation and the generation of actionable insights.
 
-Key themes across projects:
+<b>Key themes across projects</b>
 - Real-world, industry-scale datasets
 - Customer satisfaction and decision support
 - Ranking and recommendation systems
@@ -25,11 +25,11 @@ Key themes across projects:
 
 <br>
 
-### 1. Happy Customers — Customer Satisfaction Prediction
-#### Goal
+### <b>1. Happy Customers — Customer Satisfaction Prediction</b>
+#### <b>Goal</b>
 Predict customer satisfaction levels and identify the key factors that influence service quality, enabling the business to prioritize operational improvements.
 
-#### What I Did
+#### <b>What I Did</b>
 - Conducted exploratory data analysis (EDA) on survey-based customer data
 - Identified key satisfaction drivers through feature analysis
 - Trained and tuned Logistic Regression and XGBoost models
