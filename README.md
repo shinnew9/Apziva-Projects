@@ -22,4 +22,38 @@ Key themes across projects:
 |6|Voice Cloning and Fake Audio Detection|Investigated techniques for voice cloning and synthetic audio detection, focusing on identifying patterns and features that distinguish real and generated speech|
 |7|Sales Reinforcer|Examined reinforcement-based strategies to support sales decision-making by modeling customer interactions and optimizing engagement policies|
 
+<br>
+### 1. Happy Customers — Customer Satisfaction Prediction
+#### Goal
+Predict customer satisfaction levels and identify the key factors that influence service quality, enabling the business to prioritize operational improvements.
 
+#### What I Did
+- Conducted exploratory data analysis (EDA) on survey-based customer data
+- Identified key satisfaction drivers through feature analysis
+- Trained and tuned Logistic Regression and XGBoost models
+- Achieved 74% accuracy, exceeding the business benchmark of 73%
+- Translated model outputs into actionable business insights
+
+#### Skills & Tools
+- Python, scikit-learn, XGBoost
+- Classification modeling
+- Feature importance & evaluation
+
+<br>
+### 2. Term Deposit Marketing — Customer Targeting & Segmentation
+#### Goal
+Reduce unnecessary call volume while improving subscription rates for a term deposit marketing campaign.
+
+#### What I Did
+- Addressed class imbalance using SMOTE, Tomek Links, and related techniques
+- Performed customer segmentation using PCA, t-SNE, UMAP, and K-means clustering
+- Trained and evaluated Logistic Regression, Random Forest, and Gradient Boosting models
+- Compared models using F1-score and ROC-AUC
+- Proposed data-driven targeting strategies that reduced call volume and improved conversion rates
+- Visualized results using Tableau and shared insights via a presentation video
+
+#### Skills & Tools
+- Python, scikit-learn
+- Dimensionality reduction & clustering
+- Model evaluation & business-oriented reporting
+- Tableau
