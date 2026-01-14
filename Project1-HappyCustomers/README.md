@@ -1,43 +1,66 @@
-## 1 Project Overview
-This project focuses on predicting customer satisfaction using real-world survey data.
-The goal was to build a reliable classification model and identify key factors that influence service quality,
-supporting data-driven business decisions.
+## Project 1:
+**Customer Satisfaction Analytics**
 
-## 2 Problem Statement
-Customer satisfaction is a critical metric for service-oriented businesses,
-yet identifying which factors most strongly affect satisfaction can be challenging.
-This project aims to predict satisfaction levels and extract actionable insights
-from customer survey data.
+## Objective
+- Predict customer satisfaction levels using real-world survey data
+- Identify key drivers influencing customer satisfaction
+- Translate model results into actionable business insights for service improvement
 
-## 3 Dataset
-- Survey-based customer data collected from a real business context
-- Includes demographic features, service-related responses, and satisfaction labels
-- Contains class imbalance, reflecting real-world customer behavior
+## Architecture
+- **Data Ingestion**
+  - Survey-based customer satisfaction data
 
-## 4 Approach
-1. Conducted exploratory data analysis (EDA) to understand feature distributions and correlations
-2. Preprocessed data and handled missing values
-3. Trained classification models, including Logistic Regression and XGBoost
-4. Tuned hyperparameters and evaluated performance using accuracy and F1-score
-5. Analyzed feature importance to identify key drivers of satisfaction
+- **Data Processing**
+  - Data cleaning, missing value handling, and feature encoding
 
-## 5 Models & Techniques
-- Logistic Regression
-- XGBoost
-- Feature importance analysis
-- Model evaluation using accuracy and F1-score
+- **Exploratory Analysis**
+  - Distribution analysis and correlation exploration
 
-## 6 Results & Insights
-- Achieved 62% classification accuracy, exceeding the business benchmark
-- Identified key features that significantly impact customer satisfaction
-- Provided insights that can guide service improvement priorities
+- **Modeling**
+  - Supervised classification models
 
-<!--Data Processing Steps to Model Implementation:
-- Applying a random seed
-- Train_test_split
-- LazyClassifier
-- Ensembling LogisticRegression and Hyperparameter Optimized XGB
--->
+- **Evaluation & Interpretation**
+  - Model performance evaluation and feature importance analysis
 
-## 7 Top 3 Features
-<b>Hyperparameter Tuning using HyperOpt for XGBClassifier</b>
+- **Insight Generation**
+  - Business-oriented interpretation of model outputs
+
+## Insights
+- **Key Trends and Patterns**
+  - Customer satisfaction responses showed noticeable imbalance across classes
+  - Certain service-related attributes consistently correlated with satisfaction outcomes
+  - Demographic features alone were insufficient predictors without service context
+- **Feature Importance**
+  - Service quality–related features contributed more strongly than demographic features
+  - A small subset of features accounted for a significant portion of model decision-making
+  - Feature importance analysis helped prioritize operational improvement areas
+- **Performance Insights**
+  - Classification models achieved approximately 62% accuracy on the test set
+  - Performance highlighted both the predictive potential and limitations of survey-based data
+  - Results emphasized the importance of interpretability alongside raw accuracy
+- **Actionable Business Insights**
+  - Identified specific service factors that can be targeted to improve customer satisfaction
+  - Enabled data-driven prioritization of customer experience improvements
+  - Provided a structured framework for monitoring satisfaction trends over time
+- **Unexpected Findings**
+  - Some demographic variables had minimal impact compared to service-related features
+  - Noise and subjectivity in survey responses significantly affected model stability
+  - Improving data quality may yield greater gains than model complexity alone
+
+## Outcome
+- Demonstrated the feasibility of predicting customer satisfaction from real-world survey data
+- Delivered interpretable insights to support business decision-making
+- Established a baseline framework for future customer analytics projects
+
+## Technologies Used
+- Programming Language
+  - Python
+- Libraries & Tools
+  - scikit-learn
+  - pandas, NumPy
+  - Matplotlib / Seaborn
+- Models
+  - Logistic Regression
+  - XGBoost
+- Evaluation
+  - Accuracy-based classification metrics
