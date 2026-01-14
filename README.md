@@ -22,7 +22,9 @@ Key themes across projects:
 |6|Voice Cloning and Fake Audio Detection|Investigated techniques for voice cloning and synthetic audio detection, focusing on identifying patterns and features that distinguish real and generated speech|
 |7|Sales Reinforcer|Examined reinforcement-based strategies to support sales decision-making by modeling customer interactions and optimizing engagement policies|
 
+
 <br>
+
 ### 1. Happy Customers — Customer Satisfaction Prediction
 #### Goal
 Predict customer satisfaction levels and identify the key factors that influence service quality, enabling the business to prioritize operational improvements.
@@ -39,7 +41,9 @@ Predict customer satisfaction levels and identify the key factors that influence
 - Classification modeling
 - Feature importance & evaluation
 
+
 <br>
+
 ### 2. Term Deposit Marketing — Customer Targeting & Segmentation
 #### Goal
 Reduce unnecessary call volume while improving subscription rates for a term deposit marketing campaign.
