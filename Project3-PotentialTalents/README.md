@@ -127,9 +127,9 @@ flowchart LR
     H --> I[Semantic Ranking & Explanation Output]
 ```
 
-### **포인트**
-  - Retrieval과 Generation이 **분리된 구조**임이 명확
-  - “LLM이 모든 걸 다 하는 게 아님”을 잘 보여줌
+### **Key Points**
+- Clearly illustrates the separation between retrieval and generation
+- Highlights that the LLM is not responsible for the entire pipeline, but operates alongside structured retrieval components
 
 
 ## 2️⃣ Ranking Example (Qualitative Demo)
