@@ -9,43 +9,44 @@
 ## Architecture
 - **Data Ingestion**
   - Survey-based customer satisfaction data
-
 - **Data Processing**
   - Data cleaning, missing value handling, and feature encoding
-
 - **Exploratory Analysis**
   - Distribution analysis and correlation exploration
-
 - **Modeling**
   - Supervised classification models
-
 - **Evaluation & Interpretation**
   - Model performance evaluation and feature importance analysis
-
 - **Insight Generation**
   - Business-oriented interpretation of model outputs
 
 ## Insights
-- **Key Trends and Patterns**
-  - Customer satisfaction responses showed noticeable imbalance across classes
-  - Certain service-related attributes consistently correlated with satisfaction outcomes
-  - Demographic features alone were insufficient predictors without service context
-- **Feature Importance**
-  - Service quality–related features contributed more strongly than demographic features
-  - A small subset of features accounted for a significant portion of model decision-making
-  - Feature importance analysis helped prioritize operational improvement areas
-- **Performance Insights**
-  - Classification models achieved approximately 62% accuracy on the test set
-  - Performance highlighted both the predictive potential and limitations of survey-based data
-  - Results emphasized the importance of interpretability alongside raw accuracy
-- **Actionable Business Insights**
-  - Identified specific service factors that can be targeted to improve customer satisfaction
-  - Enabled data-driven prioritization of customer experience improvements
-  - Provided a structured framework for monitoring satisfaction trends over time
-- **Unexpected Findings**
-  - Some demographic variables had minimal impact compared to service-related features
-  - Noise and subjectivity in survey responses significantly affected model stability
-  - Improving data quality may yield greater gains than model complexity alone
+### Data Characteristics & Challenges
+  - Customer satisfaction survey data contained noise, subjectivity, and class imbalance
+  - Label distributions reflected real-world bias toward neutral or moderately satisfied responses
+  - Preprocessing choices had a significant impact on downstream model stability
+
+### Predictive Signals
+  - Service-related features consistently provided stronger predictive signals than demographic variables
+  - Satisfaction outcomes were influenced by a combination of multiple moderate features rather than a single dominant factor
+  - Interaction between service attributes improved model interpretability
+
+
+### Model Behavior & Limitations
+  - Classification models achieved approximately 62% accuracy, highlighting both predictive potential and data constraints
+  - Performance suggested diminishing returns from increasing model complexity without improving data quality
+  - Misclassifications often occurred near subjective satisfaction boundaries
+
+### Business-Relevant Interpretability
+  - Feature importance analysis helped translate model outputs into understandable business signals
+  - Results supported prioritizing improvements in specific service dimensions rather than broad demographic targeting
+  - Interpretability proved more valuable than marginal accuracy gains for stakeholder communication
+
+### Practical Takeaways
+  - Survey-based satisfaction prediction is feasible but requires careful expectation management
+  - Data quality and survey design play a critical role in model effectiveness
+  - Even moderate predictive performance can yield meaningful operational insights when paired with explanation
+
 
 ## Outcome
 - Demonstrated the feasibility of predicting customer satisfaction from real-world survey data
