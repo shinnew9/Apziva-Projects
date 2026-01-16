@@ -1,5 +1,5 @@
 # Project 4
-End-to-End OCR and Text-to-Speech Pipeline with Confidence-Aware Filtering
+**End-to-End OCR and Text-to-Speech Pipeline with Confidence-Aware Filtering**
 
 ## Essence
 **Accessibility-Focused OCR & Text-to-Speech Pipeline**
