@@ -1,4 +1,5 @@
 # Project 4
+End-to-End OCR and Text-to-Speech Pipeline with Confidence-Aware Filtering
 
 ## Essence
 **Accessibility-Focused OCR & Text-to-Speech Pipeline**
@@ -28,8 +29,7 @@
   - Audio files representing extracted textual content for end users
 
  <br>
-  ```
-  
+ 
     flowchart LR    
       A[Image Files] --> B[Image Preprocessing]
       
@@ -41,8 +41,6 @@
 
       F --> G[Text-to-Speech<br/>(gTTS)]
       G --> H[Audio Output Files]
-    
-    ```
 
 </br>
   
